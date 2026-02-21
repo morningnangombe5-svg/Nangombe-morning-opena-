@@ -1,0 +1,12 @@
+Folder structure for NAM BUSINESS APP ready-to-upload demo:
+
+NAM_BUSINESS_APP_DEMO/ ├── index.html ├── manifest.json ├── nam_flag_icon.png
+
+
+---
+
+index.html: (Full working demo with jobs, CVs, promotions, simulated payments, owner info) [The code I provided in the previous message]
+
+manifest.json: { "name": "NAM BUSINESS APP", "short_name": "NAM APP", "start_url": "index.html", "display": "standalone", "background_color": "#87CEEB", "theme_color": "#004AAD", "icons": [ { "src": "nam_flag_icon.png", "sizes": "192x192", "type": "image/png" } ] }
+
+nam_flag_icon.png: (App icon image with Namibian flag, to be placed in the folder)
